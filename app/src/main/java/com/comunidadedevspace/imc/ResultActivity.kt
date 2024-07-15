@@ -6,6 +6,7 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+
 const val KEY_RESULT_IMC = "ResultActivity.KEY_IMC"
 
 class ResultActivity : AppCompatActivity() {
@@ -20,9 +21,10 @@ class ResultActivity : AppCompatActivity() {
         val tvClassificacao = findViewById<TextView>(R.id.tv_classificacao)
         tvResult.text = result.toString()
 
-        val classifcacao: String = if (result<= 18.5f){
+
+        val classificacao : String = if (result <= 18.5f) {
             "MAGREZA"
-        } else if (result > 18.5f && result <= 24.9f){
+        } else if (result > 18.5f && result <= 24.9f) {
             "NORMAL"
         } else if (result > 25f && result <= 29.9f) {
             "SOBREPESO"
@@ -31,10 +33,10 @@ class ResultActivity : AppCompatActivity() {
         } else {
             "OBESIDADE GRAVE"
         }
-tvClassificacao.text = classifcacao
+        tvClassificacao.text = classificacao
 
 
-println("Bruno resultado" + result)
+        println("Bruno resultado" + result)
 
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
