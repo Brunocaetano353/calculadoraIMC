@@ -2,18 +2,15 @@
 <resources>
     <color name="black">#090909</color>
     <color name="white">#FAFAFA</color>
-    
+
     <color name="primary_400">#cd00</color>
     <color name="primary_900">#cd00ea</color>
 
 
-
-
-
-<color name= "magreza">#CDDC39</color>
-<color name= "normal">#4CAF50</color>
-<color name= "sobrepeso">#FF5722</color>
-<color name= "obesidade">#9A2F0D</color>
-<color name= "obesidadegrave">#1D0C06</color>
+    <color name="magreza">#CDDC39</color>
+    <color name="normal">#4CAF50</color>
+    <color name="sobrepeso">#FF5722</color>
+    <color name="obesidade">#9A2F0D</color>
+    <color name="obesidadegrave">#1D0C06</color>
 
 </resources>

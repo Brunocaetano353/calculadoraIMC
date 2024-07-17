@@ -81,6 +81,8 @@
         android:gravity="center"
         android:textSize="25dp"
         android:textStyle="bold"
+
+
         tools:text="Normal" />
 </LinearLayout>
 
